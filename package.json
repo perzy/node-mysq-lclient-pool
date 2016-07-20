@@ -1,0 +1,31 @@
+{
+  "name": "mysql-client-pool",
+  "version": "0.1.0",
+  "description": "Mysql client pool for create connection.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perzy/node-mysql-client-pool.git"
+  },
+  "keywords": [
+    "mysql",
+    "client",
+    "pool",
+    "connection",
+    "promise"
+  ],
+  "author": "jerrywu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perzy/node-mysql-client-pool/issues"
+  },
+  "homepage": "https://github.com/perzy/node-mysql-client-pool#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "generic-pool": "^2.4.2",
+    "mysql": "^2.11.1"
+  }
+}
